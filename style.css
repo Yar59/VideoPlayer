@@ -6,6 +6,7 @@ button{
   border-style: none;
   cursor: pointer;
   color: white;
+  background-color: transparent;
 }
 #player{
   width: 800px;

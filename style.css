@@ -5,6 +5,7 @@ html, body{
 button{
   border-style: none;
   cursor: pointer;
+  color: white;
 }
 #player{
   width: 800px;

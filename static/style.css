@@ -62,7 +62,11 @@ html, body{
   border-radius: 50%;
   display: inline-block;
   border: 3px solid white;
-
+  opacity: 0;
+  transition-duration: 1000ms
+}
+.progressbar:hover .dot{
+ opacity: 1;
 }
 .timer{
   color: white;

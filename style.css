@@ -23,7 +23,12 @@ html, body{
   background-color: transparent;
   font-size: 150%;
   line-height: 150%;
+  width: 35px;
 }
-.player-button.play{
 
+.player-button.play{
+margin-left: 5px;
+}
+.player-button.volume{
+margin-left: 10px;
 }

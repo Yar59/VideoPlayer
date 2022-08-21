@@ -21,6 +21,8 @@ html, body{
   cursor: pointer;
   color: white;
   background-color: transparent;
+  font-size: 150%;
+  line-height: 150%;
 }
 .player-button.play{
 

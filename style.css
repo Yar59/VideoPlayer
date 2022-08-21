@@ -15,6 +15,9 @@ html, body{
 .buttons-area{
  background: black;
  flex: 1 0 auto;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
 }
 .player-button{
   border-style: none;
@@ -25,10 +28,12 @@ html, body{
   line-height: 150%;
   width: 35px;
 }
-
 .player-button.play{
-margin-left: 5px;
+  margin-left: 5px;
 }
 .player-button.volume{
-margin-left: 10px;
+  margin-left: 10px;
+}
+.player-button.fullscreen{
+  margin-right: 5px;
 }

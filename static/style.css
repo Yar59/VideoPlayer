@@ -19,31 +19,55 @@ html, body{
  display: flex;
  flex-direction: row;
  justify-content: space-between;
+ align-items: center;
 }
 .player-button{
   border-style: none;
   cursor: pointer;
   color: white;
   background-color: transparent;
-  font-size: 19px;
+  font-size: 20px;
   line-height: 40px;
   width: 32px;
 }
 .left-buttons{
  display: flex;
  flex-direction: row;
+ align-items: center;
 }
 .right-buttons{
  display: flex;
  flex-direction: row;
+ align-items: center;
 }
 .progressbar{
+  height: 6px;
+  border-radius: 2px;
+  margin-left: 4px;
+}
+.progressbar.progress{
+  display: flex;
+  flex: 1 1 100%;
+  align-items: center;
+  background-color: black;
+  margin-right: 4px;
+}
+.progressbar.slider{
+  background-color: #f8104d;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #f8104d;
+  border-radius: 50%;
+  display: inline-block;
+  border: 3px solid white;
+
 }
 .timer{
   color: white;
   font-family: 'Roboto', sans-serif;
   margin-left: 3px;
-  margin-top: 11px;
   margin-right: 3px;
 }
 .player-button.play{

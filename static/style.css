@@ -19,10 +19,12 @@ html, body{
  display: flex;
  flex-direction: row;
  justify-content: space-between;
- padding: 0px 5px 0px 5px;
+ padding: 0px 2px 0px 2px;
  align-items: center;
 }
 .player-button{
+  width: 32px;
+  height: 42px;
   border-style: none;
   cursor: pointer;
   color: white;
@@ -76,6 +78,6 @@ html, body{
   margin-right: 3px;
 }
 .player-button + .player-button{
-  margin-left: 10px;
+  margin-left: 5px;
 }
 

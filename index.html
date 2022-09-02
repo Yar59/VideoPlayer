@@ -3,6 +3,7 @@
 <head>
   <title>Best video player</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href='./static/normalize.css'>
   <link rel="stylesheet" href='./static/style.css'>
   <link rel="stylesheet" href="./static/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="icon" href="./static/img/favicon.svg" type="image/png">
@@ -16,8 +17,18 @@
         <button class="player-button js-pause-button" hidden><i class="fa fa-pause" aria-hidden="true"></i></button>
         <button class="player-button js-volume-button"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
         <button class="player-button js-mute-button" hidden><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+        <div class = "timer" >
+          <span class="js-current-time"></span>
+        </div>
+      </div>
+      <div class="progressbar progress js-progress">
+        <div class="progressbar slider js-progress-slider"></div>
+        <span class="dot"></span>
       </div>
       <div class="right-buttons">
+        <div class = "timer" >
+          <span class="js-duration"></span>
+        </div>
         <button class="player-button js-fullscreen-button"><i class="fa fa-expand" aria-hidden="true"></i></button>
       </div>
     </div>
@@ -29,7 +40,6 @@
   <script type="text/javascript">
     createPlayer({
       elementId: 'player',
-      src: 'https://shattereddisk.github.io/rickroll/rickroll.mp4'
     });
   </script>
 
